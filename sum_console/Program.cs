@@ -1,4 +1,7 @@
-﻿double number_a = 5;
-double number_b = 7;
-double result = number_a / number_b;
-Console.WriteLine(result);
+﻿int a = 5;
+int b = 7;
+int max = a;
+if (a > max) max = a;
+if (b > max) max = b;
+Console.Write("max = ");
+Console.Write(max);
