@@ -267,3 +267,129 @@ printarr(arr);
 
 //-----------------------------------------------
 
+/*
+string[,] table = new string[2, 5];
+// table[0, 0] table[0, 1] table[0, 2] ... table[0, 4]
+// table[1, 0] table[1, 1] table[1, 2] ... table[1, 4]
+
+table[1, 2] = "текст";
+
+for (int r = 0; r < 2; r++)
+{
+ for (int c = 0; c < 5; c++)
+ {
+  WriteLine($"-{table[r, c]}-");
+ }
+}
+
+
+void printarr(int[,] matr)
+{
+ for (int r = 0; r < matr.GetLength(0); r++)
+ {
+  for (int c = 0; c < matr.GetLength(1); c++)
+  {
+   Write($"{matr[r, c]} ");
+  }
+  WriteLine();
+ }
+}
+
+void fillarr(int[,] matr)
+{
+ for (int r = 0; r < matr.GetLength(0); r++)
+ {
+  for (int c = 0; c < matr.GetLength(1); c++)
+  {
+   matr[r, c] = new Random().Next(1, 10);
+  }
+ }
+}
+
+int[,] matrix = new int[3, 4];
+
+printarr(matrix);
+WriteLine();
+fillarr(matrix);
+printarr(matrix);
+*/
+
+//-----------------------------------------------
+
+/*
+int[,] pic = new int[,]
+{
+ {0,1,1,1,1,0},
+ {0,1,0,0,1,0},
+ {0,1,0,0,1,0},
+ {0,1,1,1,1,0}
+};
+
+void printimg(int[,] img)
+{
+ for (int r = 0; r < img.GetLength(0); r++)
+ {
+  for (int c = 0; c < img.GetLength(1); c++)
+  {
+   if (img[r, c] == 0) Write(" ");
+   else Write("+");
+  }
+  WriteLine();
+ }
+}
+
+void fillimg(int r, int c)
+{
+ if (pic[r, c] == 0) 
+ {
+  pic[r, c] = 1;
+  fillimg(r-1, c);
+  fillimg(r, c-1);
+  fillimg(r+1, c);
+  fillimg(r, c+1);
+ }
+}
+
+printimg(pic);
+WriteLine();
+fillimg(2, 2);
+printimg(pic);
+*/
+
+//-----------------------------------------------
+
+/*
+double fact(int n) // int только до 17, double до любого числа
+{
+ // !0 = 1
+ // !1 = 1
+ if (n <= 1) return 1;
+ else return n * fact(n - 1);
+}
+
+WriteLine(fact(3)); // 1 * 2 * 3 = 6
+
+WriteLine();
+
+for (int i = 0; i < 50; i++)
+{
+ WriteLine(fact(i));
+}
+*/
+
+//-----------------------------------------------
+
+// f(1) = 1
+// f(2) = 1
+// f(n) = f(n-1) + f(n-2)
+
+double fib(int n)
+{
+ if (n == 1 || n == 2) return 1;
+ else return fib(n-1) + fib(n-2);
+}
+
+for (int i = 1; i < 10; i++) // проблемы после 40 числа
+{
+ WriteLine(fib(i));
+}
