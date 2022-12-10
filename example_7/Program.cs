@@ -1,4 +1,4 @@
 ﻿using static System.Console;
 Clear();
 
-// Задача 
+// Задача 47
