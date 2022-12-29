@@ -1,0 +1,15 @@
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\bin\Debug\net6.0\final_c.exe
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\bin\Debug\net6.0\final_c.deps.json
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\bin\Debug\net6.0\final_c.runtimeconfig.json
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\bin\Debug\net6.0\final_c.dll
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\bin\Debug\net6.0\final_c.pdb
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\obj\Debug\net6.0\final_c.csproj.AssemblyReference.cache
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\obj\Debug\net6.0\final_c.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\obj\Debug\net6.0\final_c.AssemblyInfoInputs.cache
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\obj\Debug\net6.0\final_c.AssemblyInfo.cs
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\obj\Debug\net6.0\final_c.csproj.CoreCompileInputs.cache
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\obj\Debug\net6.0\final_c.dll
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\obj\Debug\net6.0\refint\final_c.dll
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\obj\Debug\net6.0\final_c.pdb
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\obj\Debug\net6.0\final_c.genruntimeconfig.cache
+C:\Users\Печерских\Documents\GeekBrains\C#\final_c\obj\Debug\net6.0\ref\final_c.dll
