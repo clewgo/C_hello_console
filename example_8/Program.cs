@@ -1,7 +1,7 @@
 ﻿using static System.Console;
 Clear();
 
-// Задача 54
+// Задача 54 //
 
 double[,] arr = new double[3, 4];
 
