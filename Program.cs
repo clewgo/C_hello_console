@@ -1,1 +1,3 @@
-﻿//123
+﻿using static System.Console;
+Clear();
+
