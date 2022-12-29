@@ -1,1 +1,4 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using static System.Console;
+Clear();
+
+// Задача 
